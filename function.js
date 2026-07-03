@@ -1,0 +1,1 @@
+fumctions in javascript
