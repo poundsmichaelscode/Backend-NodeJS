@@ -1,10 +1,14 @@
+//  export function addnum(a, b)   {
 
-function addnum(a, b)   {
+//     return a + b;
+// }
 
-    return a + b;
+// console.log(addnum(5, 10));
+
+// addnum();
+
+export default function addnum(a, b) {
+  return a + b;
 }
 
-console.log(addnum(5, 10));
-
-addnum();
-module.export = addnum;
+// export default addnum;

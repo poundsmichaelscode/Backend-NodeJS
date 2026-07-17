@@ -1,6 +1,7 @@
 {
   "name": "Backend",
   "version": "1.0.0",
+  "type": "module",
   "scripts": {
     "dev": "nodemon index.js",
     "start": "node index.js",
@@ -8,5 +9,8 @@
   },
   "devDependencies": {
     "nodemon": "^3.0.0"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
   }
 }
